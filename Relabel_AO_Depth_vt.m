@@ -23,9 +23,6 @@ arguments
     inPS.driveLOC (1,1) logical = 1; % where raw files are located
     inPS.newLOC (1,1) logical = 1; % where processed files are located
     inPS.driveLetter (1,:) = 'C'
-    inPS.trtB (1,:) char = 'HH_232';
-    inPS.trt (1,1) string = "JATwork"
-    inPS.plMRI (1,1) logical = 1;
 end
 
 if inPS.driveLOC
